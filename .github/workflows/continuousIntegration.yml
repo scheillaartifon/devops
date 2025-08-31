@@ -12,14 +12,7 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
 
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Standard Ruby
+        uses: standardrb/standard-ruby-action@v1
         with:
-          ruby-version: '3.3.5'
-          bundler-cache: true
-
-      - name: Install dependencies
-        run: bundle install
-
-      - name: Run StandardRB
-        run: bundle exec standardrb
+          ruby-version: '3.3'
