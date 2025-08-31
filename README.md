@@ -1,12 +1,24 @@
-# devops
-Repositório criado para matéria de Devops da faculdade. Aqui vai ser feito os exercícios propostos nas aulas.
+# README
 
-Na matéria proposta aprendemos sobre git e github, sobre o github desktop e que também a outros sistema de controle de versões que podemos utilizar.
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-Sistemas de controle de versão mais comuns
-* Git
-* Subversion (SVN)
-* Mercurial
-* Team Foundation Version Control (TFVC)
+Things you may want to cover:
 
-O Git e o Mercurial são distribuídos, SVN e TFVC são Centralizados.
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
