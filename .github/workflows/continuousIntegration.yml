@@ -15,7 +15,7 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.3.5  # mesma versão do seu Gemfile
+        ruby-version: '3.3.5'
 
     - name: Standard Ruby
       uses: standardrb/standard-ruby-action@v1
